@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title> Sea Monster | Contact Us Alt </title>
+    
+    <link rel="icon" href="fav-icon@2x.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800|Playfair+Display:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="scripts/common-scripts.js"></script>
+
+</head>
+
+<body>
+    <div class="main-wrap">
+       <!-- Beginning Header Section 
+        ========================= -->
+        <header class="header-wrap">
+            <div class="common-wrap clear">
+               <div class="logo-wrap">
+                   <div class="main-logo"><a href="index.html"><img src="images/seamonster-logo-black.png" alt=""></a></div>
+                   <div class="phone-nav">
+                       <img src="svgs/menu.svg" alt="">
+                   </div>
+               </div>
+                <div class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About</a></li>
+                        <li ><a href="service-page.html">Services</a></li>
+                        <li ><a href="portfolio-page.html">Portfolio</a></li>
+                        <li><a href="#">news</a></li>
+                        <li class="current-item"><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- // End Header Section 
+        ====================== -->
+        
+        <!-- Beginning Main Content Section 
+        =============================== -->
+        <sectoin class="main-content-section contact-content">
+           <div class="left-icon"><img src="images/left-top-hand-icon.png" alt=""></div>
+           <div class="right-icon"><img src="images/right-top-hand-icon-2.png" alt=""></div>
+            
+             <section class="contact-section" style="background-image: url(images/texture-gradient.png)">
+                <div class="title-inner-info clear">
+                    <div class="title-text">
+                        <h1>Get in Touch</h1>
+                        <div class="lead-text"> To enquire about commissioning our next voyage, or to join us in the search of adventure and lore, contact our gang of intrepid explorers using one of the following channels:</div>
+                    </div>
+                </div>
+                 <div class="common-wrap clear">
+                     <div class="contact-detail-info">
+                         <div class="contact-item">
+                            <h4>Contact US</h4>
+                             <div class="contact-action">
+                                <span>Email</span>
+                                <a href="mailto:hello@seamonster.co.za">hello@seamonster.co.za</a>
+                             </div>
+                             <div class="contact-action">
+                                <span>Telephone</span>
+                                <a href="tel:+27(0)214610365">+27 (0) 21 461 0365</a>
+                             </div>
+                             <div class="contact-action">
+                                <span>Address</span>
+                                <address>3rd Floor, 75 Harrington Street<br>
+                                    Cape Town, South Africa</address>
+                             </div>
+                             <div class="social-info">
+                                <a href="#"><img src="svgs/social-facebook.svg" alt=""class="static-icon"><img src="svgs/social-facebook-red-hover.svg" alt="" class="hover-icon"></a>
+                                <a href="#"><img src="svgs/social-behance.svg"alt=""class="static-icon"><img src="svgs/social-behance-red-hover.svg" alt="" class="hover-icon"></a>
+                                <a href="#"><img src="svgs/social-twitter.svg"alt=""class="static-icon"><img src="svgs/social-twitter-red-hover.svg" alt="" class="hover-icon"></a>
+                            </div>
+                         </div>
+                          <div class="contact-item">
+                             <div class="form-wrap">
+                                <h4>Send us a Message</h4>
+                                <div class="form-info">
+                                    <form action="#" method="post" class="invalid">
+                                        <div class="form-row">
+                                            <input type="text" value="Name">
+                                        </div>
+                                        <div class="form-row error">
+                                            <input type="text" value="Email">
+                                            <dfn>Enter email address</dfn>
+                                        </div>
+                                        <div class="form-row">
+                                            <input type="text" value="Phone">
+                                        </div>
+                                        <div class="form-row">
+                                           <textarea>Message</textarea>
+                                        </div>
+                                        <div class="form-row submit">
+                                            <input type="submit" value="Submit" class="sub-btn-transparent">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                 </div>  
+             </section>
+            <section class="map-section">
+                <div class="map-image">
+                    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.4852326398673!2d18.42157491577057!3d-33.928645929600016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc677c0a0d0a55%3A0xd0a9be672b772ea7!2s75+Harrington+St%2C+Gardens%2C+Cape+Town%2C+8001%2C+South+Africa!5e0!3m2!1sen!2sbd!4v1515171377569" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                    
+                    <div id="map"></div>
+                    <script>
+                      function initMap() {
+                        var location = {lat: -33.928650, lng: 18.423764};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                          zoom: 15,
+                          center: location,
+                          //mapTypeId: google.maps.MapTypeId.ROADMAP
+                        });
+                         
+                          
+                        var mapIcon = {
+                            url: 'images/map-marker.png'
+                            //size: new google.maps.Size(20, 32),
+                            //origin: new google.maps.Point(0, 0),
+                            //anchor: new google.maps.Point(0, 32)
+                
+                        }
+
+                        var marker = new google.maps.Marker({
+                          position: map.getCenter(),
+                          icon: mapIcon,
+                          map: map,
+                          //draggable: true
+                        });
+                          
+                          
+                      }
+                    </script>
+                      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARKu9-pThyOU2AACvYvNu1bhWeoAphqgo&v=3.30&callback=initMap"></script>
+                </div>
+            </section>
+        </sectoin>
+        <!-- // End Main Content Section 
+        ============================ -->
+        
+        <!-- Beginning Footer Section 
+        ============================ -->
+        <seciton class="footer-section">
+            <div class="common-wrap clear">
+                <div class="footer-top-wrap">
+                    <h3>Stay In Touch</h3>
+                    <p>Receive updates from our gang of intrepid explorers.</p>
+                    <div class="form-wrap">
+                        <div class="form-deals">
+                            <form action="#" method="post">
+                               <div class="form-row error">
+                                    <input type="text" value="Email">
+                                    <dfn>Enter email address</dfn>
+                               </div>
+                               <div class="form-row">
+                                    <input type="submit" value="Submit" class="sub-btn-transparent">
+                               </div>
+                                <span>We’ll never share your details with 3rd parties</span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-lower">
+                    <div class="footer-logo"><a href="index.html"><img src="images/seamonster-logo-black@2x.png" alt=""></a></div>
+                    <div class="address-wrap">
+                        <address>3rd Floor, 75 Harrington Street<br>
+                            Cape Town, South Africa
+                            <a href="tel:+27(0)214610365">+27 (0) 21 461 0365</a></address>
+                            <div class="copyright">Copyright © Sea Monster. All Rights Reserved</div>
+                    </div>
+                    <div class="social-wrap">
+                        <a href="mailto:hello@seamonster.co.za">hello@seamonster.co.za</a>
+                        <div class="social-info">
+                            <a href="#"><img src="svgs/social-facebook-white.svg" alt=""class="static-icon"><img src="svgs/social-facebook-white-solid.svg" alt="" class="hover-icon"></a>
+                            <a href="#"><img src="svgs/social-twitter-white.svg" alt="" class="static-icon"><img src="svgs/social-twitter-white-solid.svg" alt="" class="hover-icon"></a>
+                            <a href="#"><img src="svgs/social-behance-white.svg" alt="" class="static-icon"><img src="svgs/social-behance-white-solid.svg" alt="" class="hover-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </seciton>
+        
+        <!-- // End Footer Section 
+        ============================ -->
+        
+        
+    </div>
+
+</body>
+
+</html>
